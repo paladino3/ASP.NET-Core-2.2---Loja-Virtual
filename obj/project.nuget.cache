@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kkYg2PKGdF5hp0ZMJfPlYFw3cpFm7P+ltYanaChWK2az8tGoJHjlAaP98TZl6szPXsM4efKlCn/KyFEjK0aUQg==",
+  "dgSpecHash": "PDT62oHDdr0waLtXTw3P3jN3u/grsRx6vCZr4fXbFiU0Jz7HW9XQF89W1Ys6u9hldR5IU6D1u/2faI4rmOnPTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rolim\\Desktop\\LojaVirtual\\LojaVirtual.csproj",
+  "projectFilePath": "C:\\Users\\rolim\\Desktop\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
@@ -116,6 +116,7 @@
     "C:\\Users\\rolim\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.0\\microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.entityframeworkcore.sqlserver\\2.2.0\\microsoft.entityframeworkcore.sqlserver.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.entityframeworkcore.tools\\2.2.0\\microsoft.entityframeworkcore.tools.2.2.0.nupkg.sha512",
+    "C:\\Users\\rolim\\.nuget\\packages\\microsoft.exchange.webservices.netstandard\\1.1.3\\microsoft.exchange.webservices.netstandard.1.1.3.nupkg.sha512",
     "C:\\Users\\rolim\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\rolim\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.caching.sqlserver\\2.2.0\\microsoft.extensions.caching.sqlserver.2.2.0.nupkg.sha512",
