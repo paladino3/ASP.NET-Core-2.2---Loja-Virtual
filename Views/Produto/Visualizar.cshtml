@@ -1,0 +1,30 @@
+﻿@model LojaVirtual.Models.Produto
+@{
+    ViewData["Title"] = "Produto";
+}
+
+<h3>Produto -> Visualizar</h3>
+
+
+:)
+<br />
+
+@{
+    string nome = "Wesley rolim";
+}
+
+<br />
+
+<h2>@nome</h2>
+<br />
+<h2>Produto</h2>
+<b>Código:</b> @Model.Id
+<br />
+<b>Nome:</b> @Model.Nome
+<br />
+<b>Descrição:</b> @Model.Descricao
+<br />
+<b>Valor:</b> @Model.Valor.ToString("c")
+<br />
+<br />
+Todos os direitos reservados &copy; @DateTime.Now.Year
