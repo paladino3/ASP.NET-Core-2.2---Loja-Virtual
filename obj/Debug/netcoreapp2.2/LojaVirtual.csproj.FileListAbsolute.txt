@@ -65,6 +65,6 @@ C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\L
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.pdb
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.genruntimeconfig.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CopyComplete
-C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.Libaries.Idioma.Mensagem.resources
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
