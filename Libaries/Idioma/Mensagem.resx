@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MSG_E001" xml:space="preserve">
-    <value>O campo {0} é obrigatório!</value>
+    <value>Por favor, verifique seu endereço de e-mail.</value>
   </data>
   <data name="MSG_E002" xml:space="preserve">
     <value>O campo {0} deve ter no minímo {1} caracteres!</value>

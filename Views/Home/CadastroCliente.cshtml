@@ -1,0 +1,88 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model LojaVirtual.Models.Cliente
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<main role="main">
+
+    <section class="container" style="margin-top: 50px">
+        <div class="row">
+            <aside class="col-sm-6">
+                <h3 class="subtitle-doc">
+                    Área de registro
+                </h3>
+                <div id="code_register_1">
+                    <div class="card">
+                        <header class="card-header">
+                            <a href="/home/login" class="float-right btn btn-outline-primary mt-1">Log in</a>
+                            <h4 class="card-title mt-2">Cadastre-se</h4>
+                        </header>
+                        <article class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label>E-mail</label>
+                                    <input type="email" asp-for="Email" class="form-control" placeholder="Ex. Joãodasilva@gmail.com">
+                                    <small class="form-text text-muted">
+                                        Nunca compartilharemos seu email com mais ninguém.
+                                    </small>
+                                </div> <!-- form-group end.// -->
+                                <div class="form-row">
+                                    <div class="col form-group">
+                                        <label>First name</label>
+                                        <input type="text" asp-for="Nome" class="form-control" placeholder="">
+                                    </div> <!-- form-group end.// -->
+                                    <div class="col form-group">
+                                        <label>Last name</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div> <!-- form-group end.// -->
+                                </div> <!-- form-row end.// -->
+
+                                <div class="form-group">
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" value="option1">
+                                        <span class="form-check-label"> Male </span>
+                                    </label>
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" value="option2">
+                                        <span class="form-check-label"> Female</span>
+                                    </label>
+                                </div> <!-- form-group end.// -->
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label>City</label>
+                                        <input type="text" class="form-control">
+                                    </div> <!-- form-group end.// -->
+                                    <div class="form-group col-md-6">
+                                        <label>Country</label>
+                                        <select id="inputState" class="form-control">
+                                            <option> Choose...</option>
+                                            <option>Uzbekistan</option>
+                                            <option>Russia</option>
+                                            <option selected="">United States</option>
+                                            <option>India</option>
+                                            <option>Afganistan</option>
+                                        </select>
+                                    </div> <!-- form-group end.// -->
+                                </div> <!-- form-row.// -->
+                                <div class="form-group">
+                                    <label>Create password</label>
+                                    <input class="form-control" type="password">
+                                </div> <!-- form-group end.// -->
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block"> Register </button>
+                                </div> <!-- form-group// -->
+                                <small class="text-muted">
+                                    Ao clicar no botão "Inscrever-se", você confirma que aceita nossos
+                                    <br> Termos de uso e politica de privacidade.
+                                </small>
+                            </form>
+                        </article> <!-- card-body end .// -->
+                        <div class="border-top card-body text-center">Já tem um cadastro?<a href="/home/login">Entrar</a></div>
+                    </div> <!-- card.// -->
+
+                </div> <!-- code-wrap.// -->
+            </aside>
+        </div>
+    </section>
+</main>

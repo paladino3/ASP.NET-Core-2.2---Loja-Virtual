@@ -61,7 +61,7 @@ namespace LojaVirtual.Libaries.Idioma {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a O campo {0} é obrigatório!.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Por favor, verifique seu endereço de e-mail..
         /// </summary>
         public static string MSG_E001 {
             get {

@@ -102,7 +102,7 @@ namespace LojaVirtual.Controllers
             //    return new ContentResult() { Content = String.Format("Enviado com Sucesso <br />Nome: {0}  <br /> Email: {1}  <br /> Texto: {2}", contato.Nome, contato.Email, contato.Texto), ContentType = "text/html" };
         }
 
-        public IActionResult Cadastro()
+        public IActionResult CadastroCliente()
         {
             return View();
         }

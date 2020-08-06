@@ -50,7 +50,6 @@ C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\L
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.TagHelpers.input.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.TagHelpers.output.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorCoreGenerate.cache
-C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Cadastro.cshtml.g.cs
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Carrinho.cshtml.g.cs
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.cshtml.g.cs
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
@@ -68,3 +67,4 @@ C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\L
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.Libaries.Idioma.Mensagem.resources
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.cshtml.g.cs
