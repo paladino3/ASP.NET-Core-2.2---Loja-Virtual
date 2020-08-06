@@ -13,7 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#line 2 "C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\Views\_ViewImports.cshtml"
+using LojaVirtual.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5aafa716b158d7612fb9287a755134c7ce71b8be", @"/Views/Produto/Visualizar.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d24cae35da25152a897b798ae02ba4e2d62399ce", @"/Views/_ViewImports.cshtml")]
     public class Views_Produto_Visualizar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LojaVirtual.Models.Produto>
     {
         #pragma warning disable 1998

@@ -13,7 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#line 2 "C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\Views\_ViewImports.cshtml"
+using LojaVirtual.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6394fcaf1e7042accb83d08adcd715b5a4766a68", @"/Views/Home/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d24cae35da25152a897b798ae02ba4e2d62399ce", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LojaVirtual.Models.NewsletterEmail>
     {
         #pragma warning disable 1998

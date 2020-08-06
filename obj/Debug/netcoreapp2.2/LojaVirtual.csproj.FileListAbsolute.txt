@@ -68,3 +68,4 @@ C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\L
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
