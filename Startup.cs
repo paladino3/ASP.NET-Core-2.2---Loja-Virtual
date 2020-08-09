@@ -40,6 +40,16 @@ namespace LojaVirtual
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            /*
+             * Session Configuração!
+             */
+            services.AddMemoryCache(); // guarda os dados na memoria
+            services.AddSession(options =>
+            {
+                //options.IOTimeout por quanto tempo o sistema fica logado sem alguem mexendo...
+
+            });//se nao configurar nada ele fica em torno de 20 min, padrao
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             string connection = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=LojaVirtual;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
@@ -65,7 +75,7 @@ namespace LojaVirtual
             app.UseDefaultFiles(); // direciona automaticamente para o index.html
             app.UseStaticFiles(); // usa as classe staticas de wwwroot, como bootstrap, css etc
             app.UseCookiePolicy();
-
+            app.UseSession(); //usar sessao
 
             /*
              * https://www.site.com.br -> Qual controlador? (gestao) -> Rotas

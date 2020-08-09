@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rolim\\Desktop\\Nova pasta\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj": {}
+    "C:\\Users\\rolim\\Desktop\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rolim\\Desktop\\Nova pasta\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj": {
+    "C:\\Users\\rolim\\Desktop\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rolim\\Desktop\\Nova pasta\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj",
+        "projectUniqueName": "C:\\Users\\rolim\\Desktop\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj",
         "projectName": "LojaVirtual",
-        "projectPath": "C:\\Users\\rolim\\Desktop\\Nova pasta\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj",
+        "projectPath": "C:\\Users\\rolim\\Desktop\\ASP.NET-Core-2.2---Loja-Virtual\\LojaVirtual.csproj",
         "packagesPath": "C:\\Users\\rolim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rolim\\Desktop\\Nova pasta\\ASP.NET-Core-2.2---Loja-Virtual\\obj\\",
+        "outputPath": "C:\\Users\\rolim\\Desktop\\ASP.NET-Core-2.2---Loja-Virtual\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

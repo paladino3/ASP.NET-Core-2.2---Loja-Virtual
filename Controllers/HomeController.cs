@@ -9,6 +9,7 @@ using LojaVirtual.Libaries.Email;
 using LojaVirtual.Models;
 using LojaVirtual.Repository;
 using LojaVirtual.Repository.Contracts;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LojaVirtual.Controllers
@@ -41,15 +42,15 @@ namespace LojaVirtual.Controllers
                 _repositoryNewsLetter.Cadastrar(newsletter);
 
                 TempData["MSG_S"] = "Parabéns e-mail cadastrado com Sucesso! Fique atento as nossas promoções no seu e-mail."; //mostra dados na tela
-                
+
                 return RedirectToAction(nameof(Index)); //retorna o metodo index GET
             }
             else
             {
                 return View();
             }
-             
-            }
+
+        }
 
         public IActionResult Contato()
         {
@@ -124,10 +125,47 @@ namespace LojaVirtual.Controllers
             return View();
         }
 
+
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Login([FromForm]Cliente cliente)
+        {
+            if (cliente.Email == "rolim.r@hotmail.com" && cliente.Senha == "1234")
+            {
+                //Email, Senha, Id, Nome, CPF
+
+
+                HttpContext.Session.Set("ID", new byte[] { 52 });
+                HttpContext.Session.SetString("Email", cliente.Email); //string
+                HttpContext.Session.SetInt32("Idade", 26);  // idade
+
+                return new ContentResult() { Content = "Logado" };
+            }
+            else
+            {
+                return new ContentResult() { Content = "Sem acesso" };
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Painel()
+        {
+            byte[] UsuarioID;
+            if (HttpContext.Session.TryGetValue("ID", out UsuarioID))
+            {
+                return new ContentResult() { Content = "Usuário " + UsuarioID[0] + ". Logado!" };
+            }
+            else
+            {
+                return new ContentResult() { Content = "Acesso negado!" };
+            }
+        }
+
 
         public IActionResult Carrinho()
         {
