@@ -5,3 +5,13 @@
     color: red;
     display:block;
 }
+
+@media (max-width: 500px) {
+    .teste {
+    }
+
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

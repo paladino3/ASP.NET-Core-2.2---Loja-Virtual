@@ -69,3 +69,41 @@ C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\L
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.cshtml.g.cs
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.deps.json
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.runtimeconfig.json
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.runtimeconfig.dev.json
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.dll
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.pdb
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.Views.dll
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\bin\Debug\netcoreapp2.2\LojaVirtual.Views.pdb
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csprojAssemblyReference.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.Libaries.Idioma.Mensagem.resources
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorAssemblyInfo.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorAssemblyInfo.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.AssemblyInfoInputs.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.AssemblyInfo.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.TagHelpers.input.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.TagHelpers.output.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorCoreGenerate.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Carrinho.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Visualizar.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorTargetAssemblyInfo.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorTargetAssemblyInfo.cs
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.Views.pdb
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.dll
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.pdb
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.genruntimeconfig.cache
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CopyComplete
+C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Adm\Inicio.cshtml.g.cs

@@ -33,6 +33,7 @@ namespace LojaVirtual
             */
             services.AddScoped<IClienteRepository, ClienteRpository>(); //injetando a dependencia dos serviços
             services.AddScoped<INewsLetterRepository, NewsLetterRepository>(); //injetando a dependencia dos serviços
+            services.AddScoped<IFuncionarioRepository, FuncionarioRepository>(); //injetando a dependencia dos serviços
             services.Configure<CookiePolicyOptions>(options =>
             {
                

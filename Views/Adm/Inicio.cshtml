@@ -1,0 +1,133 @@
+﻿@model LojaVirtual.Models.Funcionario
+@{
+    ViewData["Title"] = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<main class="teste">
+    <div class="container" style="padding-top: 100px">
+        <div class="col-12">
+
+            <h4 class="subtitle-doc">
+                # Modelo
+                <a href="#" data-html="code_payment" class="showcode">[code]</a>
+            </h4>
+            <div id="code_payment">
+
+                <article class="card">
+                    <div id="mkl" class="card-body p-5">
+                        @if (ViewData["MSG_S"] != null)
+                        {
+                            <p class="alert alert-success">@ViewData["MSG_S"]</p>
+                        }
+                        else if (ViewData["MSG_E"] != null)
+                        {
+                            <p class="alert alert-danger">@Html.Raw(ViewData["MSG_E"])</p>
+                        }
+                        <form asp-controller="AdmController" asp-action="Inicio" method="post">
+                            <div class="form-group">
+                                <label asp-for="Nome">Nome completo</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" value="Davi de souza rolim kurelo" asp-for="Nome" placeholder="Davi de souza rolim kurelo">
+                                </div>
+                                <span asp-validation-for="Nome"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label asp-for="CPF">CPF</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-address-card"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" asp-for="CPF" placeholder="000000000-00">
+                                    </div>
+                                    <span asp-validation-for="CPF"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label asp-for="Nascimento">Data Nascimento</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                        </div>
+                                        <input type="date" class="form-control" asp-for="Nascimento" placeholder="">
+                                    </div>
+                                    <span asp-validation-for="Nascimento"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email">E-mail</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-at"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" asp-for="Email" placeholder="">
+                                </div> <!-- input-group.// -->
+                                <span asp-validation-for="Email"></span>
+                            </div> <!-- form-group.// -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <label asp-for="Endereco">Endereço</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-tasks"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" asp-for="Endereco" placeholder="">
+                                    </div>
+                                    <span asp-validation-for="Endereco"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label asp-for="Contato">Contato</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-mobile"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" asp-for="Contato" placeholder="(xx)xxxxx-xxxx">
+                                    </div>
+                                    <span asp-validation-for="Contato"></span>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 10px">
+                                <div class="col-6">
+                                    <label asp-for="Cargo">Cargo</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-archive"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" asp-for="Cargo" placeholder="">
+                                    </div>
+                                    <span asp-validation-for="Cargo"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label asp-for="PretencaoSalarial">Pretenção Salarial</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-money-bill-alt"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" asp-for="PretencaoSalarial" placeholder="R$">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label asp-for="Descricao" style="margin-top: 10px"><span class="hidden-xs">Descrição Proficional</span> </label>
+                                        <div class="form-inline">
+                                            <textarea class="form-control" style="width:100%" asp-for="Descricao"> </textarea>
+                                        </div>
+                                        <span asp-validation-for="Descricao"></span>
+                                    </div>
+                                </div>
+                            </div> <!-- row.// -->
+                            <button class="subscribe btn btn-primary btn-block" type="submit"> Enviar </button>
+                        </form>
+                    </div> <!-- card-body.// -->
+                </article> <!-- card.// -->
+
+            </div> <!-- code-wrap.// -->
+        </div>
+    </div>
+</main>
