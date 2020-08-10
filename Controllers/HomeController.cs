@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LojaVirtual.Database;
 using LojaVirtual.Libaries.Email;
+using LojaVirtual.Libaries.Login;
 using LojaVirtual.Models;
 using LojaVirtual.Repository;
 using LojaVirtual.Repository.Contracts;
@@ -16,13 +17,14 @@ namespace LojaVirtual.Controllers
 {
     public class HomeController : Controller
     {
-
+        private LoginCliente _LoginCliente;
         private IClienteRepository _repositoryCliente;
         private INewsLetterRepository _repositoryNewsLetter;
-        public HomeController(IClienteRepository repositoryCliente, INewsLetterRepository repositoryNewsLetter) // injetando meu banco de dados
+        public HomeController(IClienteRepository repositoryCliente, INewsLetterRepository repositoryNewsLetter, LoginCliente loginCliente) // injetando meu banco de dados
         {
             _repositoryCliente = repositoryCliente;
             _repositoryNewsLetter = repositoryNewsLetter;
+            _LoginCliente = loginCliente;
         }
 
         [HttpGet]
@@ -135,35 +137,55 @@ namespace LojaVirtual.Controllers
         [HttpPost]
         public IActionResult Login([FromForm]Cliente cliente)
         {
-            if (cliente.Email == "rolim.r@hotmail.com" && cliente.Senha == "1234")
+
+            Cliente clienteDB = _repositoryCliente.Login(cliente.Email, cliente.Senha);
+
+            if (clienteDB != null)
             {
+
                 //Email, Senha, Id, Nome, CPF
 
-
+                /*
                 HttpContext.Session.Set("ID", new byte[] { 52 });
                 HttpContext.Session.SetString("Email", cliente.Email); //string
                 HttpContext.Session.SetInt32("Idade", 26);  // idade
+                */
 
-                return new ContentResult() { Content = "Logado" };
+                _LoginCliente.SalvarCliente(clienteDB);
+
+                return new RedirectResult(Url.Action(nameof(Painel)));
             }
             else
             {
-                return new ContentResult() { Content = "Sem acesso" };
+                ViewData["MSG_E"] = "Usuário ou senha inválidos!<br />Verifique seu dados.";
+                return View();
             }
         }
 
         [HttpGet]
         public IActionResult Painel()
         {
-            byte[] UsuarioID;
-            if (HttpContext.Session.TryGetValue("ID", out UsuarioID))
+            /*  byte[] UsuarioID;
+              if (HttpContext.Session.TryGetValue("ID", out UsuarioID))
+              {
+                  return new ContentResult() { Content = "Usuário " + UsuarioID[0] + " Email: " + HttpContext.Session.GetString("Email") + ", Idade: " + HttpContext.Session.GetInt32("Idade") + ". Logado!" }; // todos esses dodos ficam amarzenados do lado do servidor! ou seja sao criptografados
+              }
+              else
+              {
+                  return new ContentResult() { Content = "Acesso negado!" };
+              }*/
+
+            Cliente cliente = _LoginCliente.ObterCliente();
+
+            if (cliente != null)
             {
-                return new ContentResult() { Content = "Usuário " + UsuarioID[0] + ". Logado!" };
+                return new ContentResult() { Content = "Usuário Id: " + cliente.Id + ", E-mail: " + cliente.Email + ", Idade: " + DateTime.Now.AddYears( - cliente.Nascimento.Year).ToString("yy") + " anos." + ", Sexo: " +cliente.Sexo + ", Contato: " + cliente.Telefone + ", CPF: " + cliente.CPF };
             }
             else
             {
                 return new ContentResult() { Content = "Acesso negado!" };
             }
+
         }
 
 

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LojaVirtual.Database;
+using LojaVirtual.Libaries.Login;
+using LojaVirtual.Libaries.Sessao;
 using LojaVirtual.Repository;
 using LojaVirtual.Repository.Contracts;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +33,10 @@ namespace LojaVirtual
             /*
              *PADRAO REPOSITORY
             */
+
+            services.AddHttpContextAccessor();
+
+
             services.AddScoped<IClienteRepository, ClienteRpository>(); //injetando a dependencia dos serviços
             services.AddScoped<INewsLetterRepository, NewsLetterRepository>(); //injetando a dependencia dos serviços
             services.AddScoped<IFuncionarioRepository, FuncionarioRepository>(); //injetando a dependencia dos serviços
@@ -50,6 +56,9 @@ namespace LojaVirtual
 
             });//se nao configurar nada ele fica em torno de 20 min, padrao
 
+
+            services.AddScoped<Sessao>(); // adcionando minha classe sessao
+            services.AddScoped<LoginCliente>(); 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             string connection = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=LojaVirtual;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";

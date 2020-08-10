@@ -43,7 +43,7 @@
                             {
                                 <p class="alert alert-success">@ViewData["MSG_S"]</p>
                             }
-                            else if (ViewData["MSG_E"] != null)
+                            @if (ViewData["MSG_E"] != null)
                             {
                                 <p class="alert alert-danger">@Html.Raw(ViewData["MSG_E"])</p>
                             }
