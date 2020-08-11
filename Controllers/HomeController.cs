@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LojaVirtual.Database;
 using LojaVirtual.Libaries.Email;
+using LojaVirtual.Libaries.Filtro;
 using LojaVirtual.Libaries.Login;
 using LojaVirtual.Models;
 using LojaVirtual.Repository;
@@ -163,29 +164,15 @@ namespace LojaVirtual.Controllers
         }
 
         [HttpGet]
+        [ClienteAutorizacao]
         public IActionResult Painel()
         {
-            /*  byte[] UsuarioID;
-              if (HttpContext.Session.TryGetValue("ID", out UsuarioID))
-              {
-                  return new ContentResult() { Content = "Usuário " + UsuarioID[0] + " Email: " + HttpContext.Session.GetString("Email") + ", Idade: " + HttpContext.Session.GetInt32("Idade") + ". Logado!" }; // todos esses dodos ficam amarzenados do lado do servidor! ou seja sao criptografados
-              }
-              else
-              {
-                  return new ContentResult() { Content = "Acesso negado!" };
-              }*/
-
             Cliente cliente = _LoginCliente.ObterCliente();
+            return new ContentResult() { Content = "Este é o painel do cliente!\n\n" + "Usuário Id: " + cliente.Id + ", E-mail: " + cliente.Email + ", Idade: " + DateTime.Now.AddYears(-cliente.Nascimento.Year).ToString("yy") + " anos." + ", Sexo: " + cliente.Sexo + ", Contato: " + cliente.Telefone + ", CPF: " + cliente.CPF };
 
-            if (cliente != null)
-            {
-                return new ContentResult() { Content = "Usuário Id: " + cliente.Id + ", E-mail: " + cliente.Email + ", Idade: " + DateTime.Now.AddYears( - cliente.Nascimento.Year).ToString("yy") + " anos." + ", Sexo: " +cliente.Sexo + ", Contato: " + cliente.Telefone + ", CPF: " + cliente.CPF };
-            }
-            else
-            {
-                return new ContentResult() { Content = "Acesso negado!" };
-            }
-
+            /*
+            return new ContentResult() { Content = "Usuário Id: " + cliente.Id + ", E-mail: " + cliente.Email + ", Idade: " + DateTime.Now.AddYears(-cliente.Nascimento.Year).ToString("yy") + " anos." + ", Sexo: " + cliente.Sexo + ", Contato: " + cliente.Telefone + ", CPF: " + cliente.CPF };
+            */
         }
 
 

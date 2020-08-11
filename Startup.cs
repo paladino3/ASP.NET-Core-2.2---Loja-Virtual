@@ -27,7 +27,7 @@ namespace LojaVirtual
 
         public IConfiguration Configuration { get; }
 
-       
+
         public void ConfigureServices(IServiceCollection services)
         {
             /*
@@ -40,9 +40,13 @@ namespace LojaVirtual
             services.AddScoped<IClienteRepository, ClienteRpository>(); //injetando a dependencia dos serviços
             services.AddScoped<INewsLetterRepository, NewsLetterRepository>(); //injetando a dependencia dos serviços
             services.AddScoped<IFuncionarioRepository, FuncionarioRepository>(); //injetando a dependencia dos serviços
+            services.AddScoped<IColaboradorRepository, ColaboradorRepository>(); //injetando a dependencia dos serviços
+
+
+
             services.Configure<CookiePolicyOptions>(options =>
             {
-               
+
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -58,7 +62,8 @@ namespace LojaVirtual
 
 
             services.AddScoped<Sessao>(); // adcionando minha classe sessao
-            services.AddScoped<LoginCliente>(); 
+            services.AddScoped<LoginCliente>();// adcionando minha classe sessao
+            services.AddScoped<LoginColaborador>();// adcionando minha classe sessao
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             string connection = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=LojaVirtual;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
@@ -66,7 +71,7 @@ namespace LojaVirtual
             services.AddDbContext<LojaVirtualContext>(options => options.UseSqlServer(connection));
         }
 
-       
+
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -99,6 +104,12 @@ namespace LojaVirtual
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute(
+                    name: "areas",
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
+
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");

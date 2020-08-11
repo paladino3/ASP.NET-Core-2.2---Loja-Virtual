@@ -108,3 +108,10 @@ C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netc
 C:\Users\rolim\Desktop\Nova pasta\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Adm\Inicio.cshtml.g.cs
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Views\Adm\Inicio.cshtml.g.cs
 C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\Home\CadastrarNovaSenha.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\Home\Login.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\Home\RecuperarSenha.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\_ViewImports.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\Home\Painel.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rolim\Desktop\ASP.NET-Core-2.2---Loja-Virtual\obj\Debug\netcoreapp2.2\Razor\Areas\Colaborador\Views\_ViewStart.cshtml.g.cs
